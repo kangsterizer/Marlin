@@ -54,6 +54,7 @@ This effectively will make a 80mm trace of filament on the side of your bed plat
 End g-code:
 
 .. code::
+
    M104 S0          ;turn off head temperature
    M140 S0          ;turn off bed temp
    G1 F30 E-1       ;stop extrude (retracts filament by 1 at speed 30)
